@@ -4,6 +4,7 @@ import { useState } from 'react';
 import api from '../../services/api';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import axios from 'axios';
 
 export default function Login() {
     const [user, setUser] = useState('');
@@ -17,8 +18,11 @@ export default function Login() {
                 email: user,
                 password: password
             })
-            if (response.status == 200)
+            if (response.status == 200){
+                api.defaults.headers.authorization = `Bearer ${response.data.token}`;
+                window.localStorage.setItem('user_token', response.data.token);
                 navigate("/home");
+            }
         }
         catch (error) {
             if (error.response.status == 403)

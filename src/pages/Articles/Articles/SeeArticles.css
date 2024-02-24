@@ -1,0 +1,29 @@
+.container-admin {
+    padding: 20px;
+}
+
+.table-admin {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table-admin th,
+.table-admin td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-admin th {
+    background: var(--primary-color);
+    color: var(--text-primary-color);
+}
+button{
+    padding: 8px 13px;
+    background-color: var(--primary-color);
+    color: var(--text-primary-color);
+    border: none;
+    font-weight: 500;
+    border-radius: 2px;
+
+}

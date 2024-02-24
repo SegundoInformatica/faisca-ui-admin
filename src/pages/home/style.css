@@ -1,24 +1,20 @@
-.boxPrincipal{
+.boxPrincipal {
     width: 100%;
 }
 
-.titlePrincipal{
+.titlePrincipal {
     text-align: center;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.bodyItens{
+.bodyItens {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
-.divClassTickets h3{
-    font-size: 50px;
-}
-
-.boxTickets{
+.boxTickets {
     background-color: black;
     width: 200px;
     height: 70px;
@@ -26,11 +22,13 @@
     align-items: center;
     display: flex;
 }
-.boxTickets h2{
+
+.boxTickets h2 {
     color: white;
-    
+
 }
-.boxTickets2{
+
+.boxTickets2 {
     background-color: black;
     width: 70px;
     height: 70px;
@@ -40,20 +38,25 @@
     margin-left: 10px;
 }
 
-.box{
+.box {
     display: flex;
 }
 
-.boxPrincipalArtigos{
+.boxPrincipalArtigos {
     font-size: 50px;
+    margin: 0 10vw 10vh 10vw;
+}
+.boxPrincipalArtigos h2 {
+    font-size: 60%;
+    color: var(--text-primary-color);
 }
 
-.divClassArtigos{
+.divClassArtigos {
     display: flex;
 }
 
-.boxArtigos{
-    width: 70px;
+.boxArtigos {
+    padding: 0 12%;
     height: 70px;
     margin: 5px;
     border-radius: 5px;
@@ -63,20 +66,5 @@
     background-color: black;
 }
 
-.boxTickets{
-    width: 210px;
-    height: 70px;
-    margin: 5px;
-    background-color: black;
-    border-radius: 5px;
-}
 
-.boxTickets h2{
-    font-size: 40px;
-}
-
-.boxArtigos h2{
-    color: white;
-    font-size: 30px;
-}
 
