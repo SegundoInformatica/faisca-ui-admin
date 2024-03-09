@@ -35,10 +35,16 @@ export default function Login() {
         <div className="container-login">
             <div className='body-login'>
                 <img src={icon} />
-                <label>Usuário:</label>
-                <input className='input' onChange={(e) => { setUser(e.target.value) }} />
-                <label>Senha:</label>
-                <input className='input' type='password' onChange={(e) => { setPassword(e.target.value) }} />
+                
+                <div className='container-input'>
+                    <label className='identifier'>Usuário:</label>
+                    <input className='input' onChange={(e) => { setUser(e.target.value) }} />
+                </div>
+                <div className='container-input'>
+                    <label className='identifier'>Senha:</label>
+                    <input className='input' type='password' onChange={(e) => { setPassword(e.target.value) }} />
+                </div>
+
                 <button className='button-login' onClick={handleLogin}>Entrar</button>
             </div>
         </div>

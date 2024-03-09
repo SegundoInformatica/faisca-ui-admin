@@ -11,7 +11,7 @@
     color: var(--text-primary-color);
     font-weight: 600;
     height: 70%;
-    width: 70%;
+    width: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,16 +25,35 @@
 }
 
 .input {
+    width: 100%;
     border-radius: 20px;
     border: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
 }
 
 .button-login {
     background-color: var(--secondary-color);
     font-weight: 600;
-margin-top: 30px;
+    margin-top: 30px;
     padding: 5px 40px ;
     border-radius: 20px;
     border: none;
 }
+
+.container-input{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+button.button-login{
+    font-size: 1.3rem;
+    width: 35%;
+    padding:15px;
+}
+
+label.identifier{
+    margin:0px 0px 10px 10px;
+}
+
