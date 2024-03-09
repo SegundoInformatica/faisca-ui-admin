@@ -1,0 +1,6 @@
+.div-cabecalho{
+  margin: 2rem auto 0px auto;
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+}
