@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({    
-    baseURL: 'http://api-faisca.online/'    
+    baseURL: 'https://api-faisca.online/'    
     //baseURL: 'http://localhost:8080/'    
 });
 api.interceptors.request.use(
